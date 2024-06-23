@@ -1,0 +1,387 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 1440px;
+}
+
+.header_navigation{
+    width: 100vw;
+    height: 134px;
+    border-bottom: 1px solid #c7c397;
+    margin-left: calc((-100vw + 100%) / 2);
+    margin-right: calc((-100vw + 100%) / 2);
+    display: flex;
+    justify-content: center;
+}
+
+.header_navigation-logo{
+    font-size: 44px;
+    letter-spacing: 9px;
+    padding-top: 52.54px;
+    padding-left: 63.58px;
+    white-space: nowrap;
+}
+
+.header_navigation-element{
+    padding-top: 59px;
+    margin-left: 476.59px;
+    padding-right: 61px;
+    display: flex;
+}
+
+.blog{
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.about{
+    margin-left: 31px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.links{
+    margin-left: 34px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.projects{
+    margin-left: 36px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.blog:hover, .about:hover,
+.links:hover, .projects:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.header_image{
+    margin-top: 76px;
+    text-align: center;
+}
+
+.title{
+    width: 858px;
+    font-size: 54px;
+    font-weight: 700;
+    margin-left: 293px;
+    padding-top: 44px;
+    font-family: 'New York Extra Large', sans-serif;
+    text-align: center;
+}
+
+.intro{
+    font-weight: 400;
+    line-height: 34px;
+    font-size: 20px;
+    width: 592px;
+    height: 68;
+    margin-left: 424px;
+    padding-top: 32px;
+    font-family: 'SF Mono', sans-serif;
+    text-align: center;
+}
+
+
+.line{
+    margin-top: 34px;
+    border: 2px solid #000000;
+    margin-right: auto;
+    margin-left: auto;
+    width: 640px;
+}
+
+.section{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    padding-top: 64px;
+    text-align: center;
+    font-family: 'New York Extra Large', sans-serif;
+
+}
+
+.subsection{
+    margin-top: 62px;
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    text-align: center;
+
+}
+.subsection_col1{
+    padding-left: 402px;
+    padding-top: 39px;
+}
+
+.subsection_col2{
+    padding-left: 28px;
+    padding-top: 39px;
+}
+.image_size{
+    width: 304px;
+    height: 176px;
+}
+
+.subsection_content{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.4px;
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: center;
+    width: 262px;
+    height: 78px;
+    margin-left: 21px;
+    margin-top: 20px;
+
+}
+
+footer{
+    background-color: black;
+    margin-top: 113px;
+    width: 1440px;
+    height: 468px;
+    
+}
+.pd{
+    padding-left: 27px;
+}
+
+.footer_group{
+    display: flex; 
+    padding-top: 18px;
+}
+
+.footer_group_1{
+    font-family: 'SF Pro Display', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+}
+
+.footer_group_2{
+    font-family: 'SF Pro Display', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.footer_logo{
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-top: 105.12px;
+    color: white;
+    text-align: center;
+}
+
+.footer_describe{
+    font-size: 16px;
+    margin-top: 25.58px;
+    color: white;
+    text-align: center;
+    font-family: 'New York Small', sans-serif;
+    font-weight: 400;
+    line-height: 22.4px;
+    width: 488px;
+    height: 71px;
+        
+}
+span{
+    text-decoration: underline;
+    margin: 13.5px;
+}
+
+.footer_end{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+    padding-top: 32px;
+    color: white;
+    justify-content: center;
+    
+}
+.copyright{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    height: 34px;
+    margin-top: 64px;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 992px){
+    .header_navigation_menuicon{
+        display: none;
+    }
+    .content_articles-mobile{
+        display: none;
+    }
+}
+
+@media (width < 992px) {
+    body{
+        width: 375px;
+    }
+    .header_navigation{
+        height: 65px;
+        margin-right: 0;
+        margin-left: 0;
+        width: 375px;
+    }
+    .header_navigation-logo{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-left: 0;
+        padding-top: 24px;
+        letter-spacing: 3px;
+        width: 217px;
+    }
+    .header_navigation-element{
+        display: none;
+    }
+    .header_image{
+        margin-top: 52px;
+        text-align: center;
+    }
+    .header_image img{
+        width: 375px;
+        height: 235px;
+    }
+    .title{
+        margin-left: 20px;
+        width: 340px;
+        height: 172px;
+        font-size: 36px;
+        line-height: 42.96px;
+        font-family: 'New York Extra Large', sans-serif;
+        text-align: center;
+    }
+
+    .intro{
+        font-size: 16px;
+        margin-left: 20px;
+        width: 335px;
+        height: 81px;
+        margin: 24px;
+        font-family: 'SF Mono', sans-serif;
+        text-align: center;
+    }
+
+    
+    
+    .line{
+        margin-top: 52px;
+        width: 375px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 2px solid #000000;
+    }
+    .section{
+        font-size: 32px;
+        padding-top: 56px;
+    }
+    .subsection{
+        margin-top: 54px;
+        font-family: 'New York Extra Large', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.19px;
+        text-align: center;
+
+    }
+    .subsection_col1{
+        display: none;
+    }
+
+    .subsection_col2{
+        display: none;
+    }
+
+    .mobile_content{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    .mobile_content img{
+        width: 335px;
+        height: 194px;
+    }
+
+    .subsection_content{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26.4px;
+        font-family: 'SF Pro Display', sans-serif;
+        text-align: center;
+        width: 262px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    
+    }
+
+    .mobile_content p{
+        padding-top: 20px;
+        margin-left: 30px;
+        width: 262px;
+    }
+
+    .footer_logo{
+        font-size: 35px;
+        letter-spacing: 5px;
+        margin-top: 105.12px;
+        color: white;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    footer{
+        overflow: hidden;
+        width: 375px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .footer_describe{
+        font-size: 13px;
+        width: 287px;
+        margin-top: 25.41px;
+        font-family: 'New York Small', sans-serif;
+        line-height: 18.2px;
+        font-weight: 400;
+        height: auto;
+    }
+
+    .footer_end{
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 22.1px;
+        padding-top: 32px;
+        color: white;        
+        
+    }
+}
